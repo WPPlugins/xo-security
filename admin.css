@@ -1,0 +1,125 @@
+/*
+Dashboard
+*/
+#xo_security_dashboard_login_widget .inside {
+    margin: 0;
+    padding: 0;
+}
+#xo_security_dashboard_login_widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#xo_security_dashboard_login_widget .login_widget {
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    padding: 8px 12px 10px;
+}
+#xo_security_dashboard_login_widget .login_widget:last-child {
+    border-bottom: none;
+    padding-bottom: 8px;
+}
+
+/*
+Login log
+*/
+.loginlogs .column-logintime {
+    width: 15%;
+}
+.loginlogs .column-success {
+    width: 5rem;
+}
+.loginlogs .column-ipaddress {
+    width: 15%;
+}
+.loginlogs .column-lang {
+    width: 10%;
+}
+.loginlogs .column-useragent {
+}
+.loginlogs .column-loginname {
+    width: 12%;
+}
+.loginlogs .column-failedpassword {
+    width: 10%;
+}
+
+@media screen and (max-width: 782px) {
+    .loginlogs .column-useragent {
+        display: none;
+    }
+}
+
+/*
+Option page
+*/
+.xo-security-form-table {
+    clear: both;
+    width: 100%;
+    margin: 0;
+    border-spacing: 0;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    color: #000;
+    font-size: 14px;
+}
+.xo-security-form-table tr {
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
+}
+.xo-security-form-table th,
+.xo-security-form-table td {
+    vertical-align: top;
+    line-height: 1.4em;
+    font-weight: normal;
+    text-align: left;
+    padding: 8px 10px;
+}
+.xo-security-form-table .status-check {
+    width: 20px;
+}
+.xo-security-form-table .status-title {
+    width: 200px;
+}
+.xo-security-form-table .status-description {
+}
+.xo-security-form-table .check-off,
+.xo-security-form-table .check-on {
+    vertical-align: top;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.xo-security-form-table .check-off {
+    background: url(images/check-off.png) 0 0 no-repeat;
+    background-size: contain;
+}
+.xo-security-form-table .check-on {
+    background: url(images/check-on.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 782px) {
+    .xo-security-form-table thead .status-description {
+        display: none;
+    }
+    .xo-security-form-table .status-title {
+        font-size: 1.4em;
+    }
+    .xo-security-form-table .status-description {
+        font-size: 13px;
+    }
+    .xo-security-form-table .status-title,
+    .xo-security-form-table tbody td {
+        display: block;
+        width: auto;
+    }
+    .xo-security-form-table .check-off,
+    .xo-security-form-table .check-on {
+        width: 26px;
+        height: 26px;
+    }
+}

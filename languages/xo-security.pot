@@ -1,0 +1,493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: XO Security\n"
+"POT-Creation-Date: 2017-06-03 14:19+0900\n"
+"PO-Revision-Date: 2017-06-03 14:19+0900\n"
+"Last-Translator: ishitaka\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.php:22 admin.php:70
+msgid "Success"
+msgstr ""
+
+#: admin.php:22 admin.php:69
+msgid "Failure"
+msgstr ""
+
+#: admin.php:34
+msgid "Date"
+msgstr ""
+
+#: admin.php:35
+msgid "Result"
+msgstr ""
+
+#: admin.php:36
+msgid "IP address"
+msgstr ""
+
+#: admin.php:37
+msgid "Language"
+msgstr ""
+
+#: admin.php:38
+msgid "User Agent"
+msgstr ""
+
+#: admin.php:41
+msgid "Username"
+msgstr ""
+
+#: admin.php:42
+msgid "Password"
+msgstr ""
+
+#: admin.php:59
+msgid "Delete"
+msgstr ""
+
+#: admin.php:66
+msgid "Filter by results"
+msgstr ""
+
+#: admin.php:68
+msgid "All results"
+msgstr ""
+
+#: admin.php:82 admin.php:91
+msgid "Filter by user"
+msgstr ""
+
+#: admin.php:84
+msgid "All users"
+msgstr ""
+
+#: admin.php:103
+msgid "Filter"
+msgstr ""
+
+#: admin.php:214 admin.php:300
+msgid "Login log"
+msgstr ""
+
+#: admin.php:225
+msgid "Number of items per page:"
+msgstr ""
+
+#: admin.php:231 admin.php:245
+msgid "Overview"
+msgstr ""
+
+#: admin.php:233
+msgid "View the log of login."
+msgstr ""
+
+#: admin.php:234
+msgid ""
+"If the user name is the same as an existing user, the password is not "
+"displayed (not recorded in the log itself)."
+msgstr ""
+
+#: admin.php:247
+msgid "XO Security setup."
+msgstr ""
+
+#: admin.php:248
+msgid ""
+"Limit of records and login attempts of login log, change the login page, "
+"disable such as XML-RPC, it makes the security-related settings."
+msgstr ""
+
+#: admin.php:252 admin.php:409
+msgid "Login"
+msgstr ""
+
+#: admin.php:254
+msgid "Make the settings for the login."
+msgstr ""
+
+#: admin.php:255
+msgid ""
+"Number of trials restriction limits the number of times that you can try "
+"from the same IP address during a specified time. From was over a specified "
+"number of IP address you will not be able to log in."
+msgstr ""
+
+#: admin.php:256
+msgid "Login page, Change the name of the login page."
+msgstr ""
+
+#: admin.php:257
+msgid "Login alert, Send an e-mail when login."
+msgstr ""
+
+#: admin.php:258
+msgid ""
+"Automatic deletion of login log automatically deletes the old log in the log "
+"of the previous period specified."
+msgstr ""
+
+#: admin.php:262 admin.php:410
+msgid "XML-RPC"
+msgstr ""
+
+#: admin.php:264
+msgid ""
+"Disable XML-RPC, XML-RPC functionality disabled. This setting does not "
+"disable XML-RPC pingback."
+msgstr ""
+
+#: admin.php:265
+msgid "Disabling pingback XML-RPC, XML-RPC pingback functionality disabled."
+msgstr ""
+
+#: admin.php:269 admin.php:411
+msgid "REST API"
+msgstr ""
+
+#: admin.php:271
+msgid "Disable REST API, REST API functionality disabled."
+msgstr ""
+
+#: admin.php:272
+msgid "REST API URL prefix, Change the prefix for the REST API URL."
+msgstr ""
+
+#: admin.php:276 admin.php:412
+msgid "Secret"
+msgstr ""
+
+#: admin.php:278
+msgid ""
+"Disabling author archives the author archive page does not appear. Avoid it "
+"this URL of the author archive page gets in a login name."
+msgstr ""
+
+#: admin.php:279
+msgid ""
+"Disable comment author name class removes the comment author name class "
+"added to the comments list \"comment-author-xxx\" (where xxx is the login "
+"name). Protects against it to obtain the login name."
+msgstr ""
+
+#: admin.php:406
+msgid "XO Security Settings"
+msgstr ""
+
+#: admin.php:408
+msgid "Status"
+msgstr ""
+
+#: admin.php:457
+msgid "Setting status"
+msgstr ""
+
+#: admin.php:462
+msgid "Feature"
+msgstr ""
+
+#: admin.php:463
+msgid "Description"
+msgstr ""
+
+#: admin.php:469
+msgid "Record login"
+msgstr ""
+
+#: admin.php:470
+msgid "Record the login log."
+msgstr ""
+
+#: admin.php:474
+msgid "Infinite login attempts"
+msgstr ""
+
+#: admin.php:475
+msgid "Block connections that repeat login failures."
+msgstr ""
+
+#: admin.php:479 admin.php:539
+msgid "Modify login page"
+msgstr ""
+
+#: admin.php:480
+msgid "Change the name of the login page."
+msgstr ""
+
+#: admin.php:484 admin.php:540
+msgid "Login Alert"
+msgstr ""
+
+#: admin.php:485
+msgid "Send a mail when you log in."
+msgstr ""
+
+#: admin.php:490
+msgid "Login language Restrictions"
+msgstr ""
+
+#: admin.php:491
+msgid "Limit the languages that can be logged in."
+msgstr ""
+
+#: admin.php:496 admin.php:545
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: admin.php:497
+msgid "Disable the XML-RPC."
+msgstr ""
+
+#: admin.php:501 admin.php:546
+msgid "Disable XML-RPC Pinback"
+msgstr ""
+
+#: admin.php:502
+msgid "Disable XML-RPC pingback features."
+msgstr ""
+
+#: admin.php:506 admin.php:550
+msgid "Disable REST API"
+msgstr ""
+
+#: admin.php:507
+msgid "Disable the REST API."
+msgstr ""
+
+#: admin.php:511 admin.php:551
+msgid "Change REST API URL prefix"
+msgstr ""
+
+#: admin.php:512
+msgid "Change the prefix for the REST API URL."
+msgstr ""
+
+#: admin.php:516 admin.php:555
+msgid "Disable author archives"
+msgstr ""
+
+#: admin.php:517
+msgid ""
+"Author archive page does not appear. Avoid it this URL of the author archive "
+"page gets in a login name."
+msgstr ""
+
+#: admin.php:521 admin.php:556
+msgid "Disable comment author name class"
+msgstr ""
+
+#: admin.php:522
+msgid ""
+"Remove the comment author name class added to the comments list. Protects "
+"against it to obtain the login name."
+msgstr ""
+
+#: admin.php:536
+msgid "Infinite attempts"
+msgstr ""
+
+#: admin.php:537
+msgid "Block time delay"
+msgstr ""
+
+#: admin.php:538
+msgid "Failure time delay"
+msgstr ""
+
+#: admin.php:541
+msgid "Automatic removal of log"
+msgstr ""
+
+#: admin.php:562
+msgid "No limit"
+msgstr ""
+
+#: admin.php:563
+msgid "During the one-hour"
+msgstr ""
+
+#: admin.php:564
+msgid "During the 12-hour"
+msgstr ""
+
+#: admin.php:565
+msgid "During the 24-hour"
+msgstr ""
+
+#: admin.php:566
+msgid "During the 48-hour"
+msgstr ""
+
+#: admin.php:570
+msgid "times permission"
+msgstr ""
+
+#: admin.php:575
+msgid "sec (0-120)"
+msgstr ""
+
+#: admin.php:580
+msgid "sec (0-10)"
+msgstr ""
+
+#: admin.php:586 admin.php:606 admin.php:615 admin.php:620 admin.php:625
+#: admin.php:630 admin.php:638 admin.php:643
+msgid "ON"
+msgstr ""
+
+#: admin.php:587
+msgid "Login at %SITENAME% site"
+msgstr ""
+
+#: admin.php:588
+msgid "Subject:"
+msgstr ""
+
+#: admin.php:589
+msgid "%USERNAME% logged in at %DATE% %TIME%"
+msgstr ""
+
+#: admin.php:590
+msgid "Body:"
+msgstr ""
+
+#: admin.php:591
+msgid ""
+"In the Subject and Body, the following variables can be used: %SITENAME%, "
+"%USERNAME%, %DATE%, %TIME%, %IPADDRESS%, %USERAGENT%"
+msgstr ""
+
+#: admin.php:592
+msgid "Administrators only"
+msgstr ""
+
+#: admin.php:598
+msgid "Not automatic deletion"
+msgstr ""
+
+#: admin.php:599
+msgid "Older than 30 days"
+msgstr ""
+
+#: admin.php:600
+msgid "Older than 356 days"
+msgstr ""
+
+#: admin.php:608
+msgid "Login file:"
+msgstr ""
+
+#: admin.php:610
+msgid ""
+"Characters can be used in the login file is only lowercase letters, numbers, "
+"hyphens and underscores."
+msgstr ""
+
+#: admin.php:632
+msgid "Prefix:"
+msgstr ""
+
+#: admin.php:633
+msgid ""
+"Characters can be used in the prefix is only lowercase letters, numbers, "
+"hyphens and underscores."
+msgstr ""
+
+#: admin.php:658
+msgid "Attempts to limit the number of times enter numbers from 1 to 100."
+msgstr ""
+
+#: admin.php:664
+msgid "In the numbers from 0 to 120 block when the response delay."
+msgstr ""
+
+#: admin.php:669
+msgid "Failure response delay enter in the numbers from 0 to 10."
+msgstr ""
+
+#: admin.php:677
+msgid "Login file cannot be created."
+msgstr ""
+
+#: admin.php:680
+msgid "Unable to write."
+msgstr ""
+
+#: admin.php:695
+msgid ""
+"The file specified in the login file already exists. Please enter a "
+"different name."
+msgstr ""
+
+#: admin.php:700
+msgid "Failed to create a login file."
+msgstr ""
+
+#: admin.php:706
+msgid "It is not possible to omit the login file."
+msgstr ""
+
+#: admin.php:797
+msgid "Login information"
+msgstr ""
+
+#: admin.php:816
+msgid "Current login date"
+msgstr ""
+
+#: admin.php:816 admin.php:817
+msgid "Unknown"
+msgstr ""
+
+#: admin.php:817
+msgid "Last login date"
+msgstr ""
+
+#: admin.php:861
+msgid "Login blocking count"
+msgstr ""
+
+#: admin.php:862
+#, php-format
+msgid "Failed login count (%d hour)"
+msgid_plural "Failed login count (%d hours)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.php:863
+#, php-format
+msgid "Failed login count (%d day)"
+msgid_plural "Failed login count (%d days)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: main.php:109
+msgid "Sorry, cannot request the REST API."
+msgstr ""
+
+#: main.php:161 main.php:172
+msgid "We restrict the login right now."
+msgstr ""
+
+#: main.php:174
+msgid "Username or password is incorrect"
+msgstr ""
+
+#: main.php:237
+msgid "Unable to login."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "XO Security is a plugin to enhance login related security."
+msgstr ""
